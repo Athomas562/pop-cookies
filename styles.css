@@ -1,0 +1,61 @@
+.rectangle {
+    z-index: 0;
+    background-color: red;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+}
+
+.tout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle2 {
+    position: absolute;
+    z-index: 1;
+    background-color: green;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+}
+
+.rectangle3 {
+    z-index: 2;
+    background-color: rgb(49, 49, 241);
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+}
+
+.rectangle4 {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    width: 18%;
+}
+
+h1 {
+    padding-left: 15%;
+}
+
+button {
+    margin-left: 17%;
+    margin-bottom: 3%;
+    border-radius: 12px;
+}
+
+.button1 {
+    border:1px solid #0084FF;
+    color: #0084FF;
+}
+
+.button2 {
+    border:1px solid #1A81E1;
+    background-color: #1A81E1;
+    color: white;
+}
